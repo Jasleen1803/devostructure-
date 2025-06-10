@@ -1,0 +1,305 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+  
+section {
+  margin-top: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;
+  /* Dark background */
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  /* White text */
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107;
+  /* Yellow on hover */
+}
+
+/* Badge Styles */
+.badge {
+  font-size: 0.9rem;
+}
+
+/* Header and Footer Styles */
+.bg-dark {
+  background-color: #343a40 !important;
+  /* Dark background */
+}
+
+.bg-secondary {
+  background-color: #6c757d !important;
+  /* Secondary background */
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+  /* Success background */
+}
+
+.bg-warning {
+  background-color: #ffc107 !important;
+  /* Warning background */
+}
+
+.text-warning {
+  color: #ffc107 !important;
+  /* Yellow text */
+}
+
+.text-light {
+  color: #f8f9fa !important;
+  /* Light text */
+}
+
+/* Button Styles */
+.btn-warning {
+  background-color: #ffc107;
+  /* Warning button */
+  color: #212529;
+  /* Dark text */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  /* Darker yellow on hover */
+}
+
+/*logobar section*/
+
+.top-bar {
+  background-color: #111111; /* deep black tone */
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.logo-img {
+  height: 35px;
+  /* Adjust as needed */
+  width: auto;
+  object-fit: contain;
+}
+
+.badge-small {
+  padding: 2px 6px;
+  font-size: 0.75rem;
+}
+
+.counter-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.small-text {
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.stats-section {
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.stat-item {
+  color: #fff;
+}
+
+.stat-icon {
+  width: 28px;
+  height: auto;
+}
+
+.stat-count {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #ccc;
+}
+
+
+/* Carousel Styles */
+
+.hero-container {
+  background-color: #fdbf17;
+  /* Yellow color like your screenshot */
+  padding: 40px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  /* Reduced height similar to your reference */
+  overflow: hidden;
+}
+
+/* Content Row */
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 40px;
+  gap: 30px;
+}
+
+/* Left Text Column */
+.hero-text {
+  flex: 1;
+  color: #fff;
+}
+
+.p {
+  color: #000
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-custom {
+  margin-right: 10px;
+  background: white;
+  color: black;
+  border: 1px solid #000;
+  padding: 10px 18px;
+  font-weight: bold;
+}
+
+/* Right Image Column */
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Slider Arrows */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  /* Black color */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero-container {
+    height: auto;
+    padding: 30px 15px;
+  }
+}
+
+/*section*/
+img.img-fluid {
+  color: #000;
+
+  .extra-small-icon {
+    width: 40px;
+  }
+}
+
+
+/* Card Styles */
+.card {
+  border: none;
+  /* No border for cards */
+  border-radius: 0.5rem;
+  /* Rounded corners */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  /* Dark footer */
+  color: #ffffff;
+  /* White text */
+}
+
+footer a {
+  color: #ffc107;
+  /* Yellow links */
+}
+
+footer a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+/* Accordion Styles */
+.accordion-button {
+  background-color: #f8f9fa;
+  /* Light background for accordion */
+  color: #212529;
+  /* Dark text */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e2e3e5;
+  /* Light grey when expanded */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    padding: 0.5rem 1rem;
+    /* Adjust padding for mobile */
+  }
+}
+
+.hover-underline:hover {
+  text-decoration: underline !important;
+}
